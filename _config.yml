@@ -1,1 +1,3 @@
-theme: jekyll-theme-cayman
+name: react-native-cool-components
+markdown: kramdown
+description : You can use some cool and animated components for both android and iOS. More components will get updated in future
