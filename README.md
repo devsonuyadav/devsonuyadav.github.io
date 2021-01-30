@@ -14,7 +14,7 @@ You can use some cool and animated components for both android and iOS. More com
 
 ### Usage
 
-``` import React, { Component } from "react";
+```JSX import React, { Component } from "react";
 import { SafeAreaView} from "react-native";
 import { ButtonSwiper } from "react-native-cool-components";
 export class App extends Component {
