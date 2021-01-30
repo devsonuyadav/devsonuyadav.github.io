@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Welcome to react-native-cool-components 
 
-You can use the [editor on GitHub](https://github.com/sky32752/react-native-cool.components.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You can use some cool and animated components which might be used in your react native project. More components will get updated in future
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Installation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+``` npm i react-native-cool-components or yarn add react-native-cool-components```
 
-```markdown
-Syntax highlighted code block
+### ButtonSwiper
 
-# Header 1
-## Header 2
-### Header 3
+![buttonSwiper gif](https://react-native-cool-components.github.com/images/buttonSwiper.gif)
 
-- Bulleted
-- List
+```import React, { Component } from "react";
+import { SafeAreaView} from "react-native";
+import { ButtonSwiper } from "react-native-cool-components";
+export class App extends Component {
+  render() {
+    return (
+      <SafeAreaView>
+        <ButtonSwiper onSwipeComplete={() => alert("Yo I just triggered")} />
+      </SafeAreaView>
+    );
+  }
+}
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+export default App;
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sky32752/react-native-cool.components.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
