@@ -12,7 +12,7 @@ You can use some cool and animated components which might be used in your react 
 ![ButtonSwiper](/images/buttonSwiper.gif)
 
 
-```import React, { Component } from "react";
+``` import React, { Component } from "react";
 import { SafeAreaView} from "react-native";
 import { ButtonSwiper } from "react-native-cool-components";
 export class App extends Component {
